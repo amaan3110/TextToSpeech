@@ -1,0 +1,33 @@
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 31vw;
+    height: 52vh;
+    gap: 1vh;
+    margin-left: 34.5vw;
+    margin-top: 24vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.main>textarea{
+    width: 90%;
+    resize: none;
+    height: 21vh;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+.main>button{
+    width: 80%;
+    background-color: #77A1D3;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 300ms ease-in-out;
+}
